@@ -1,0 +1,30 @@
+{
+  "name": "fvozar/twig-ordinal-number-filter",
+  "description": "A Twig Extension filter to format number into ordinal form (1st, 2nd, etc.).",
+  "require-dev": {
+	"php": ">=5.5.9",
+	"phpunit/phpunit": "~4.5",
+	"twig/extensions": "~1.2"
+  },
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Filip Vozár",
+	  "email": "filip.vozar@gmail.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "Fvozar\\Twig\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "Fvozar\\Twig\\Tests\\": "tests/",
+	  "Fvozar\\Twig\\": "src/"
+	},
+	"psr-0": {
+	  "Fvozar\\Twig\\Tests\\": "tests/"
+	}
+  }
+}
