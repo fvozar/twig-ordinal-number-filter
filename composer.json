@@ -14,17 +14,13 @@
 	}
   ],
   "autoload": {
-	"psr-4": {
+	"psr-0": {
 	  "Fvozar\\Twig\\": "src/"
 	}
   },
   "autoload-dev": {
-	"psr-4": {
-	  "Fvozar\\Twig\\Tests\\": "tests/",
-	  "Fvozar\\Twig\\": "src/"
-	},
-	"psr-0": {
-	  "Fvozar\\Twig\\Tests\\": "tests/"
-	}
+	"classmap": [
+	  "tests/FvozarTests/Twig"
+	]
   }
 }

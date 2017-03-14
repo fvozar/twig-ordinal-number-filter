@@ -1,11 +1,17 @@
 <?php
 
-namespace Fvozar\Twig\Tests;
+namespace FvozarTests\Twig;
 
 use Fvozar\Twig\OrdinalNumberExtension;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
+/**
+ * Class OrdinalNumberExtensionTest
+ *
+ * @package FvozarTests\Twig
+ * @author Filip Vozar <filip.vozar@gmail.com>
+ */
 class OrdinalNumberExtensionTest extends \PHPUnit_Framework_TestCase
 {
 
