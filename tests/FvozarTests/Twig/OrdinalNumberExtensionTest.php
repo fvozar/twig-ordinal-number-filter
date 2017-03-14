@@ -115,4 +115,14 @@ class OrdinalNumberExtensionTest extends \PHPUnit_Framework_TestCase
 
 		$this->assertEquals($value, $filter->makeOrdinal($value));
 	}
+
+
+	public function testLocalizedNumberValue()
+	{
+		$filter = new OrdinalNumberExtension();
+
+		$value = 1000000;
+
+		$this->assertEquals('1 000 000.', $filter->makeOrdinal($value, 'sk'));
+	}
 }
