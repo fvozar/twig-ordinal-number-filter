@@ -1,4 +1,6 @@
 # Twig OrdinalNumber Extension
+[![Build Status](https://travis-ci.org/fvozar/twig-ordinal-number-filter.svg?branch=master)](https://travis-ci.org/fvozar/twig-ordinal-number-filter)
+
 A Twig Extension filter to format number into ordinal form (1st, 2nd, etc.).
 
 ## Install
